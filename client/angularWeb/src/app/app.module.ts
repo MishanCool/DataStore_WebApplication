@@ -12,6 +12,7 @@ import { UserComponent } from './components/user/user.component';
 import { SignUpComponent } from './components/user/sign-up/sign-up.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { SignInComponent } from './components/user/sign-in/sign-in.component';
+import { DataFormComponent } from './data-form/data-form.component';
 
 // routes
 import { appRoutes } from './routes';
@@ -22,13 +23,15 @@ import { AuthGuard } from './auth/auth.guard';
 import { AuthInterceptor } from './auth/auth.interceptor';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     SignUpComponent,
     UserProfileComponent,
-    SignInComponent
+    SignInComponent,
+    DataFormComponent
   ],
   imports: [
     BrowserModule,
