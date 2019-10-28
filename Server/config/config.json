@@ -2,7 +2,8 @@
     "development": {
 
         "PORT": 3006,
-        "MONGODB_URI": "mongodb://localhost:27017/meanLogin",
+        
+        "MONGODB_URI": "mongodb://localhost:27017/DataStore_WebApplication",
         "JWT_SECRET": "SECRET#123",
         "JWT_EXP": "10m"                                 
     },
